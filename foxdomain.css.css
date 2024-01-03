@@ -1,0 +1,692 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: inline;
+}
+.logoname{
+    color: aliceblue;
+    font-family: Skranji;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: -45px;
+}
+.fa-brands{
+    color: aliceblue;
+    float: right;
+    font-size: 40px;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Skranji;
+    font-size: 21px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(123, 0, 0);
+    transition: 0.4s;
+    font-size: 25px;
+}
+.btnc{
+    margin-top: 55px;
+    
+}
+
+.interface-text{
+    margin-top: 150px;
+    width: 650px;
+    margin-left: 80px;
+    
+    
+}
+
+.fox-interface{
+
+    width: 790px;
+    margin-left: -10px;
+    margin-top: 174px;
+    
+    
+    }
+
+.interface{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+
+
+.small-discription{
+    font-weight: 800;
+    
+    }
+
+    .smalltextinterface{
+        color: white;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 80px;
+        margin-top: -140px;
+    }
+    
+
+
+
+
+
+    .FDC-discription{
+        display: flex;
+        flex-direction: row;
+        
+        
+        }
+
+
+        .image-discription{
+            margin-top: 300px;
+            width: 700px;
+            margin-left: 50px;
+            
+            
+            }
+
+
+.whoarewe{
+width: 750px;
+margin-top: 310px;
+margin-left: -30px;
+}
+
+.btn-Learnmoreaboutthisprojectbyreadingthewhitelist{
+    margin-left: 400px;
+    margin-top: 200px;
+    background-color: rgb(136, 0, 0);
+    padding: 20px;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: larger;
+    border-color: rgb(248, 68, 68);
+    margin-top: 90px ;
+    transition: 0.25s;
+    z-index: 100;
+    
+    
+    
+    }
+
+
+.btn-Learnmoreaboutthisprojectbyreadingthewhitelist:hover{
+    background-color: rgb(203, 21, 21);
+    cursor: pointer;
+    
+
+
+}
+
+.FDC-discription{
+    margin-top: -40px;
+    
+    }
+
+    .title-world{
+
+        color: white;
+        text-align: center;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: 55px;
+        
+        }
+
+.comics{
+    display: grid;
+    grid-template-columns: 205px;
+    
+background-color: white;
+width: 300px;
+height: 450px;
+margin-left: 100px;
+border-radius: 25px;
+
+}
+
+.book-icon{
+width: 100px;
+margin-left: 105px;
+margin-top: 50px;
+
+
+
+}
+
+.comics-text{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 260px;
+margin-left: 104px ;
+}
+
+.comics-discription{
+color: black;
+
+margin-top: -250px;
+margin-right: -55px;
+line-height: 1.5;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 45px;
+text-align: center;
+font-weight: 400;
+
+}
+
+
+.world{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+    
+}
+
+.gaming{
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-left: 100px;
+    border-radius: 25px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 250px;
+
+}
+
+.gaming-icon{
+ height: 100px;
+ width: 100px;
+margin-left:50px;
+margin-top: 20px;
+
+}
+
+.gaming-title{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder;
+font-size: 25px;
+margin-left: 100px;
+margin-top: 30px;
+
+}
+
+.gaming-text{
+    line-height: 1.5;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+font-weight: 400;
+margin-left: 50px;
+margin-top: -10px;
+    
+
+
+}
+
+.more-in-depth{
+background-color: white;
+width: 300px;
+height: 450px;
+margin-left: 100px;
+border-radius: 25px;
+margin-right: 95px;
+
+
+}
+
+.more-in-depth-img{
+    width: 100px;
+    height: 100px;
+ width: 100px;
+ margin-left: 100px;
+margin-top: 45px;
+
+
+
+}
+
+
+
+
+.more-in-depth-title{
+    margin-left: 118px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+
+
+
+}
+
+.more-in-depth-discription{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 35px;
+    margin-top: -25px;
+  
+    cursor: default;
+    
+}
+
+
+
+.roadmap-layer{
+
+display: flex;
+flex-direction: row;
+
+
+}
+
+.roadmap-pic{
+margin-top: 200px;
+width: 900px;
+margin-left: -90px;
+
+
+
+}
+
+.image-roadmap-discription{
+
+width: 750px;
+margin-top: 100px;
+margin-left: -70px;
+
+}
+
+.hadi{
+
+    background-color: rgb(228, 228, 228);
+width: 250px;
+height: 450px;
+border-radius: 25px;
+margin-left: 30px;
+
+
+}
+
+.abdulhadi{
+text-align: center;
+padding-top: 70px;
+font-size: 25px;
+font-family: Orbitron;
+
+
+
+}
+
+.founder{
+
+font-family: Oxanium;
+text-align: center;
+margin-top: -15px;
+font-weight: bold;
+
+}
+
+.hadi-discription{
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+line-height: 2;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+.twitter-team{
+
+background: none;
+border: none;
+width: 100px;
+
+
+
+
+
+}
+
+.twitter-team:hover{
+cursor: pointer;
+
+
+}
+
+
+.twitter-team-image{
+    width: 30px;
+    vertical-align: baseline;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.team{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.scoopa{
+    background-color: rgb(228, 228, 228);
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+
+}
+
+
+
+.scoopa1{
+    background-color: rgb(228, 228, 228);
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+
+}
+
+
+.twitter-team-scoopa{
+
+
+    background: none;
+    border: none;
+    width: 100px;
+    margin-top: -60px;
+
+
+}
+
+
+.twitter-team-scoopa:hover{
+
+cursor: pointer;
+
+
+}
+
+
+
+
+.twitter-team{
+
+    background: none;
+    border: none;
+    width: 100px;
+}
+
+
+.twitter-team-cm{
+
+    background: none;
+    border: none;
+    width: 100px;
+
+}
+
+.twitter-team-cm{
+
+cursor: pointer;
+
+}
+
+
+.team2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+}
+
+
+.huda{
+    background-color: rgb(228, 228, 228);
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 430px;
+
+}
+
+
+.huda1{
+    background-color: rgb(228, 228, 228);
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-right: 430px;
+
+}
+
+
+.huda3{
+    background-color: rgb(228, 228, 228);
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-right: 430px;
+
+}
+
+
+@media screen and (max-width: 600px){
+    .logo{
+        height: 47px;
+        width: 50px;
+        margin-left: -0.1px;
+        margin-top: 35px;
+
+        
+       
+    }
+
+    .logoname{
+        color: aliceblue;
+        font-family: Skranji;
+        font-size: 0px;
+        margin-top: 45px;
+        margin-left: -45px;
+    }
+
+
+    .btn{
+        background-color: black;
+        color: white;
+        border: none;
+        font-family: Skranji;
+        font-size: 13px;
+        cursor: pointer;
+        margin-right: 30px;
+        
+    }
+
+
+    .interface-text{
+        margin-top: 60px;
+        width: 300px;
+        margin-left: 30px;
+        
+        
+    }
+
+    .fox-interface{
+
+        width: 360px;
+        margin-left: -323px;
+        margin-top: 279px;
+        
+        
+        }
+        .btn-Learnmoreaboutthisprojectbyreadingthewhitelist{
+        margin-left: 35px;
+           padding: 13px;
+           width: 300px;
+            
+            font-weight: 900;
+            font-size: small;
+           
+            margin-top: 50px ;
+            z-index: 200;
+            
+            
+            }
+
+
+
+
+            .image-discription{
+                margin-top: 160px;
+               
+                width: 350px;
+                margin-left: 5px;
+                
+                
+                }
+    
+    
+                        .whoarewe{
+                        width: 390px;
+                        margin-top: 490px;
+                        margin-left: -370px;
+                        }
+
+                        .title-world{
+
+                            color: white;
+                            text-align: center;
+                            font-family: monospace;
+                            font-weight: 900;
+                            font-size: 40px;
+                            margin-left: -10px;
+                            
+                            }
+                        
+                            
+
+
+                            .world{
+
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                gap: 30px;
+                                margin-left: -70px;
+                                    
+                                }
+
+
+
+                                .roadmap-layer{
+
+                                    display: flex;
+                                    flex-direction: column;
+                                    
+                                    
+                                    }
+                                    
+                                    .roadmap-pic{
+                                    margin-top: -15px;
+                                    width: 380px;
+                                    margin-left: 3px;
+                                    
+                                    
+                                    
+                                    }
+                                    
+                                    .image-roadmap-discription{
+                                    
+                                    width: 490px;
+                                    margin-top: 100px;
+                                    margin-left: -55px;
+                                    
+                                    }
+
+                                    .team{
+
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                          gap: 35px;
+                                    }
+
+                                    .team2{
+
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        
+                                    
+                                    
+                                    }
+
+                                    .hadi{
+                                        margin-left: 70px;
+                                    }
+
+                                    .scoopa{
+
+                                        margin-left: 70px;
+                                    }
+                                    .huda{
+
+                                        margin-top: 30px;
+                                        margin-left: 73px;
+                                    
+                                    }
+                                    
+                                    
+                                    .huda1{
+                                        
+                                        margin-top: 30px;
+                                        margin-left: 75px;
+                                    
+                                    }
+
+
+
+
+
+
+
+
+}
